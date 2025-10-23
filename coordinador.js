@@ -8,7 +8,7 @@ const EXTERNAL_PORT = 4000;
 const ACK_PORT = 4001;
 
 
-const EXPECTED_MEMBERS = 2; 
+const EXPECTED_MEMBERS = 3; 
 
 const multicastSender = dgram.createSocket('udp4');
 const externalListener = dgram.createSocket('udp4');
